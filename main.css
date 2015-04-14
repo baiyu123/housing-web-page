@@ -1,0 +1,70 @@
+body img{
+	display:block;
+	margin: 10px auto 10px auto;
+}
+
+header{
+	width:100%;
+	height:auto;
+}
+
+.nav{
+	text-align:center; center everything
+	height: 40px;
+	color: #808080;
+}
+
+.nav ul{
+	margin: 0 auto 0 auto;
+	padding: 0;
+}
+
+.nav ul li{
+	list-style: none;
+	display:inline-block;
+	width:auto;
+}
+
+.nav ul li a{
+	text-decoration:none;
+	float:left;
+	display: block;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: black;
+	font-family: Helvetica, Arial,"Times New Roman";
+		border-bottom:solid 1px cc0000;
+
+}
+
+.nav ul li a:hover{
+	color: #a7e0ee;
+	border-bottom:solid 1px #a7e0ee;
+
+}
+.home .first{
+	color: #a7e0ee;
+	border-bottom:solid 1px #a7e0ee;
+}
+
+.buy .second{
+	color: #a7e0ee;
+	border-bottom:solid 1px #a7e0ee;
+}
+
+.aboutus .third{
+	color: #a7e0ee;
+	border-bottom: solid 1px #a7e0ee;
+}
+
+
+
+.headerBreak{
+	margin: 0 200px 0 200px;
+	height:0;
+	border-top: 2px solid #a7e0ee;
+}
+
+.first{
+	margin-left: auto;
+}
