@@ -4,128 +4,140 @@ body img{
 }
 
 header{
-	width:100%;
-	height:auto;
+    display:block;
+    position:relative;
+	width:90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nav{
-	text-align:center; center everything
-	height: 40px;
+    display:block;
+	text-align:center;
+    margin: 0 auto 0 auto;
+    width: 60%;
+	height: auto;
+    background-color: #56A4E3;
+    border-radius: .5em;
+    background-image: -moz-linear-gradient(top, #56A4E3 0%, #1982A5 100%); 
+    
 }
 
 .nav ul{
 	margin: 0 auto 0 auto;
 	padding: 0;
+    
 }
 
 .nav ul li{
-    margin-left: 50px;
+    margin-left: 0em;
 	list-style: none;
 	display:inline-block;
-	width:auto;
+	width:30%;
+    font-weight: bold;
+    height: 100%;
 }
 
 .nav ul li a{
 	text-decoration:none;
-	float:left;
+    height: 100%;
+    font-size: 1.3em;
+	float:none;
 	display: block;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 1em;
+	padding-right: 1em;
 	color: black;
 	font-family: Helvetica, Arial,"Times New Roman";
 
 }
 
 .nav ul li a:hover{
-	color: #a7e0ee;
-	border-bottom:solid 1px #a7e0ee;
+	color: white;
 
 }
 .home .first{
-	color: #a7e0ee;
-	border-bottom:solid 1px #a7e0ee;
+	color: white;
+	border:solid 1px #a7e0ee;
+    background-color: #a7e0ee;
 }
 
 .buy .second{
-	color: #a7e0ee;
-	border-bottom:solid 1px #a7e0ee;
+	color: white;
+	border:solid 1px #a7e0ee;
+    background-color: #a7e0ee;
 }
 
 .aboutus .third{
-	color: #a7e0ee;
-	border-bottom: solid 1px #a7e0ee;
+	color: white;
+	border:solid 1px #a7e0ee;
+    background-color: #a7e0ee;
 }
 
 
-
-.headerBreak{
-	margin: 0 200px 0 200px;
-	height:0;
-	border-top: 2px solid #a7e0ee;
-}
 
 .first{
 	margin-left: auto;
 }
 
 
-#container {
-    height: 513px;
-    width: 770px;
+.container {
+    height: auto;
+    width: 100%;
     margin: 20px auto 20px auto;
     position: relative;
 }
 
 
 #slidingimg {
-    height: 513px;
-    width: 770px;
+    height: auto;
+    width: 100%;
     position: relative;
 }
 
 #left_holder {
-    height: 513px;
-    width: 100px;
+    height: 100%;
+    width: 25%;
     position: absolute;
     left:0px;
     top:0px;
 }
 
 #right_holder {
-    height: 513px;
-    width: 100px;
+    height: 100%;
+    width: 25%;
     position: absolute;
     right: 0px;
     top:0px;
 }
 
 .left {
-    height: 50px;
-    width: 50px;
+    height: 10%;
+    width: auto;
     position:absolute;
     top: 45%;
-    left:0px;
+    left:10%;
 }
 
 .right {
-    height: 50px;
-    width: 50px;
+    height: 10%;
+    width: auto;
     position:absolute;
     top: 45%;
-    left:0px;
+    right:10%;
 }
 
 .content {
-    height: 1500px;
+    height: 1000px;
     margin: 20px auto 20px auto;
     width: 60%;
 }
 
 .firstItem {
-    height:100px;
-    width: 550px;
+    height:auto;
+    width: 90%;
     margin:20px auto 20px auto;
     border: 2px solid #a7e0ee;
+    border-radius: 4px;
 }
 
 .content img{
@@ -134,24 +146,6 @@ header{
 
 
 
-.firstItem span {
-    width:300px;
-    display:table;
-    padding:7px 10px;
-    margin-top:0px;
-    float: left;
-    font: "Times New Roman", Arial;
-    font-size: 16px;
-    padding-left: 50px;
-}
-
-.firstItem ul{/*
-    margin-left: 0px;
-    padding-left: 0px;*/
-    margin: auto auto auto auto;
-	padding: 15px 0px 0px 0px;
-
-}
 
 .content li{
     list-style-type: none;
@@ -160,6 +154,12 @@ header{
 }
 
 
+.copyright{
+    display: block;
+    background-color: #1D72B8;
+    width: 100%;
+    height: 200px;
+}
 
 
 .button {
@@ -188,6 +188,27 @@ header{
  box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
   
   
+}
+
+
+@media screen and (max-width: 910px){
+    .content {
+    height: 1200px;
+    margin: 20px auto 20px auto;
+    width: 90%;
+}
+    .nav{
+        width: 90%;
+    }
+    .nav ul li a{
+        font-size: 1em;
+    }
+}
+@media screen and (max-width:510px)
+{
+    .nav ul li a{
+        font-size: .7em;
+    }
 }
 
 
